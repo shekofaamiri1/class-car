@@ -19,4 +19,8 @@ std::string getModel() const {
      double getPrice() const {
         return price;
     }
+    // Mutator functions
+    void setModel(const std::string& m) {
+        model = m;
+    }
 
