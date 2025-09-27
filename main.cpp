@@ -13,4 +13,7 @@ public:
 std::string getModel() const {
         return model;
     }
+     int getYear() const {
+        return year;
+    }
 
