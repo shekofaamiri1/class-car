@@ -23,4 +23,8 @@ std::string getModel() const {
     void setModel(const std::string& m) {
         model = m;
     }
+     void setYear(int y) {
+        if (y > 1885 && y <= 2025)
+            year = y;
+    }
 
