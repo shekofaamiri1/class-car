@@ -16,4 +16,7 @@ std::string getModel() const {
      int getYear() const {
         return year;
     }
+     double getPrice() const {
+        return price;
+    }
 
