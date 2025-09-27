@@ -10,5 +10,7 @@ private:
 public:
     // Constructor
     Car(std::string m, int y, double p) : model(m), year(y), price(p) {}
-
+std::string getModel() const {
+        return model;
+    }
 
