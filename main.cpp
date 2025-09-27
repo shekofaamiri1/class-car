@@ -27,4 +27,8 @@ std::string getModel() const {
         if (y > 1885 && y <= 2025)
             year = y;
     }
+    void setPrice(double p) {
+        if (p >= 0)
+            price = p;
+    }
 
