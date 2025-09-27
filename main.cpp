@@ -31,4 +31,9 @@ std::string getModel() const {
         if (p >= 0)
             price = p;
     }
+     // Display car info
+    void display() const {
+        std::cout << "Model: " << model << ", Year: " << year << ", Price: " << price << " Toman" << std::endl;
+    }
+};
 
