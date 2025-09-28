@@ -61,4 +61,8 @@ public:
                 found = true;
             }
         }
+        if (!found)
+            std::cout << "Car with model " << modelName << " not found." << std::endl;
+    }
+};
 
