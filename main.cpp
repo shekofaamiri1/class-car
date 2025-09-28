@@ -39,5 +39,8 @@ std::string getModel() const {
 class CarGarage {
 private:
     std::vector<Car> cars;
-
+public:
+    void addCar(const Car& car) {
+        cars.push_back(car);
+    }
 
