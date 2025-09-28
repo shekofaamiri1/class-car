@@ -36,4 +36,8 @@ std::string getModel() const {
         std::cout << "Model: " << model << ", Year: " << year << ", Price: " << price << " Toman" << std::endl;
     }
 };
+class CarGarage {
+private:
+    std::vector<Car> cars;
+
 
