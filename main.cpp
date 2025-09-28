@@ -53,4 +53,6 @@ public:
             cars[i].display();
         }
     }
+     void searchByModel(const std::string& modelName) const {
+        bool found = false;
 
