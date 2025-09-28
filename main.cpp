@@ -43,4 +43,9 @@ public:
     void addCar(const Car& car) {
         cars.push_back(car);
     }
+     void showAllCars() const {
+        if (cars.empty()) {
+            std::cout << "Garage is empty." << std::endl;
+            return;
+        }
 
