@@ -55,4 +55,10 @@ public:
     }
      void searchByModel(const std::string& modelName) const {
         bool found = false;
+        for (const auto& car : cars) {
+            if (car.getModel() == modelName) {
+                car.display();
+                found = true;
+            }
+        }
 
