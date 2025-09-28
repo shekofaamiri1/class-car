@@ -48,4 +48,9 @@ public:
             std::cout << "Garage is empty." << std::endl;
             return;
         }
+        for (size_t i = 0; i < cars.size(); ++i) {
+            std::cout << "Car " << i+1 << ": ";
+            cars[i].display();
+        }
+    }
 
