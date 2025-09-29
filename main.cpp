@@ -65,4 +65,22 @@ public:
             std::cout << "Car with model " << modelName << " not found." << std::endl;
     }
 };
+int main() {
+    Car car1("Peugeot 405", 1380, 20000000);
+    Car car2("Samand", 1398, 50000000);
+    Car car3("Tiba", 1390, 15000000);
+
+    CarGarage garage;
+    garage.addCar(car1);
+    garage.addCar(car2);
+    garage.addCar(car3);
+
+    std::cout << "List of cars:" << std::endl;
+    garage.showAllCars();
+
+    std::cout << "\nSearch for model 'Samand':" << std::endl;
+    garage.searchByModel("Samand");
+
+    return 0;
+}
 
